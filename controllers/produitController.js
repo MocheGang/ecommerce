@@ -17,6 +17,7 @@ const produitController = {
       res.status(500).json({ error: error.message });
     }
   },
+  
 
   // Fonction pour créer un nouveau produit
   async createProduct(req, res) {
